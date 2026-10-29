@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secrets
+.env
+
+# Data: never commit raw data or resumes
+data/raw/
+*.pdf
+*.parquet
+
+# macOS
+.DS_Store
